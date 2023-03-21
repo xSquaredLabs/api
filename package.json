@@ -1,0 +1,19 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "description": "A simple API for remote communication with MAINNFRAME.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Ryan Brooks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xSquaredLabs/api"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "js-yaml": "^4.1.0"
+  }
+}

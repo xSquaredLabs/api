@@ -1,0 +1,10 @@
+routes:
+  /users:
+    type: GET
+    cmd: 'cut -d: -f1 /etc/passwd'
+  /files:
+    type: GET
+    cmd: ls -l ${CWD}
+  /spotify/connect:
+    type: GET
+    cmd: /home/admin/spitifyd -no—daemon
